@@ -1,0 +1,268 @@
+<html>
+    <head>
+        <title>Bootstrap Example</title>
+           <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+          
+
+        <!-- Scrollbar Custom CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+        <style>
+            .wrapper {
+                
+                width: 100%;
+            }
+
+            #sidebar {
+                width: 250px;
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100vh;
+                z-index: 999;
+                background: #000000;
+                color: #FFF;
+                transition: all 0.3s;
+            }
+
+            body {
+              font-family: Arial;
+              color: white;
+            }
+
+            .split {
+              height:;
+              position:fixed;
+              z-index: 1;
+              overflow-x: hidden;
+              margin:0px auto;
+            }
+
+            .left {
+              left:0;
+              width:20%;
+              background-color: #fff;
+            }
+
+            .right {
+              right:0;
+              width:80%;
+             
+              background-color: white;
+            }
+
+            .centered {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              text-align: center;
+            }
+
+            .centered img {
+              width: 150px;
+              border-radius: 50%;
+            }
+
+
+            .footer {
+              position: fixed;
+              left: 0;
+              bottom: 0;
+              height:45px;
+              margin: 0 auto;
+              width: 100%;
+              padding: 10px 0;
+              background-color: #111;
+              color: white;
+              text-align: center;
+            }
+            .navbar-default {
+                background-color: #0000FF;
+                border-color: #0000FF;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-light" style="background-color: #000000;">
+          <div class="container-fluid">
+            <div class="navbar-default" >
+              <a class="navbar-brand" href="#"  style="color:white;" >Smart Move</a>
+            </div>
+            
+            <ul class="nav navbar-nav">
+              <li class="active" ><a href="#" style="color:white;">Home</a></li>
+              <li><a href="#" style="color:white;">Page 1</a></li>
+              <li><a href="#" style="color:white;">Page 2</a></li>
+            </ul>
+              
+
+
+
+
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#" style="color:white;"><span class="glyphicon glyphicon-user"></span>Contacts</a></li>
+              <li><a href="#" style="color:white;"><span class="glyphicon glyphicon-log-in" ></span> Logout</a></li>
+            </ul>
+          </div>
+
+
+            <div class="split left">
+                <div class="row" style="margin-top:60px;">
+
+                    
+
+                </div>
+            </div>
+
+            <div class="split right">
+            <div class="container">
+
+
+                <div class="jumbotron" style="text-align:center;">
+                <h2>DashBoard</h2>      
+                </div>
+              <div class="row" style="margin:20px 0;">
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <a href="map" target="_blank">
+                      <img src="https://www.psdgraphics.com/wp-content/uploads/2014/02/map-pointer.jpg" style="width:40%,height:40%">
+
+                      <div class="caption" style="text-align:center;">Location Pointer
+                    
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <a href="#" target="_blank">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2v60PxfZPk2BZIuMs7sJiGSW09GBTB9PlKRILKk9Dk_h_UsRI" style="width:50%,height:50%">
+                      <div class="caption">
+                       
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <a href="#" target="_blank">
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2v60PxfZPk2BZIuMs7sJiGSW09GBTB9PlKRILKk9Dk_h_UsRI" style="width:50%,height:50%">
+                      <div class="caption">
+                      
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+
+                <div class="row" style="margin:20px 0;">
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <a href="#" target="_blank">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2v60PxfZPk2BZIuMs7sJiGSW09GBTB9PlKRILKk9Dk_h_UsRI" style="width:50%,height:50%">
+                      <div class="caption">
+                  
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <a href="#" target="_blank">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2v60PxfZPk2BZIuMs7sJiGSW09GBTB9PlKRILKk9Dk_h_UsRI" style="width:50%,height:50%">
+                      <div class="caption">
+                  
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <a href="#" target="_blank">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2v60PxfZPk2BZIuMs7sJiGSW09GBTB9PlKRILKk9Dk_h_UsRI" style="width:50%,height:50%">
+                      <div class="caption">
+                       
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            </div>
+
+
+            <div class="footer">
+              Footer to Use
+            </div>
+
+        </nav>
+        <div class="wrapper">
+            <!-- Sidebar -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <h3>  Smart Move  </h3>
+                </div>
+
+
+
+              <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Collapsible Group 1</a>
+                    </h4>
+                  </div>
+                  <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body" style="color: black">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Collapsible Group 2</a>
+                    </h4>
+                  </div>
+                  <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                  </div>
+                </div>
+                
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible list group</a>
+                    </h4>
+                  </div>
+                  <div id="collapse3" class="panel-collapse collapse">
+                    <ul class="list-group">
+                      <li class="list-group-item">One</li>
+                      <li class="list-group-item">Two</li>
+                      <li class="list-group-item">Three</li>
+                    </ul>
+                    <div class="panel-footer">Footer</div>
+                 
+                
+                </div>
+            </div>
+
+            </nav>
+            
+        </div>
+
+
+    </body>
+</html>
+
+
+
+

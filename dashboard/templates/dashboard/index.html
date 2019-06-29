@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SmartMove DasBoard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+
+  <style>
+
+
+
+body {
+  font-family: Arial;
+  color: white;
+}
+
+  
+
+         
+
+.split {
+  height:;
+  position:fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  margin:0px auto;
+}
+
+.left {
+  left:0;
+  width:20%;
+  height:auto;
+  background-color: #fff;
+}
+
+   #sidebar {
+                width: 100%;
+                top: 0;
+                z-index: 999;
+                left: 0;
+                height: 80%;
+                color: #000;
+                transition: all 0.3s;
+            }
+
+.right {
+  right:0;
+  width:80%;
+ 
+  background-color: white;
+}
+
+#container_spilt{
+width:100%;
+height:auto;
+
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height:45px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #111;
+  color: white;
+  text-align: center;
+}
+.navbar-default {
+    background-color: #0000FF;
+    border-color: #0000FF;
+}
+</style>
+
+
+
+
+
+
+
+</head>
+<body>
+<nav class="navbar navbar-light" style="background-color: #00AAEE;">
+  <div class="container-fluid">
+    <div class="navbar-default" >
+      <a class="navbar-brand" href="#"  style="color:black;" >Smart Move</a>
+    </div>
+    
+    <ul class="nav navbar-nav">
+      <li class="active" ><a href="#" style="color:black;">Home</a></li>
+    </ul>
+      
+
+
+
+
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#" style="color:black;"><span class="glyphicon glyphicon-log-in" ></span> Logout</a></li>
+    </ul>
+  </div>
+
+</nav>
+
+<div id="container_spilt">
+<div class="split left">
+    
+    	 
+            <!-- Sidebar -->
+            <nav id="sidebar">
+
+
+
+              <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Collapsible Group 1</a>
+                    </h4>
+                  </div>
+                  <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body" style="color: black">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                  </div>
+                </div>
+                
+              
+                
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible list group</a>
+                    </h4>
+                  </div>
+                  <div id="collapse3" class="panel-collapse collapse">
+                    <ul class="list-group">
+                      <li class="list-group-item">One</li>
+                      <li class="list-group-item">Two</li>
+                      <li class="list-group-item">Three</li>
+                    </ul>
+                   
+                 
+                
+                </div>
+            </div>
+
+            </nav>
+            
+
+
+</div>
+
+<div class="split right">
+	<div class="container">
+
+
+	<div class="jumbotron" style="text-align:center;">
+    <h2>DashBoard</h2>      
+    </div>
+  <div class="row" style="margin:20px 0;">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="map" target="_blank">
+          <img src="https://www.psdgraphics.com/wp-content/uploads/2014/02/map-pointer.jpg" style="width:40%,height:40%">
+
+          <div class="caption" style="text-align:center;">Location Pointer
+        
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="#" target="_blank">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2v60PxfZPk2BZIuMs7sJiGSW09GBTB9PlKRILKk9Dk_h_UsRI" style="width:50%,height:50%">
+          <div class="caption">
+           
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="#" target="_blank">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2v60PxfZPk2BZIuMs7sJiGSW09GBTB9PlKRILKk9Dk_h_UsRI" style="width:50%,height:50%">
+          <div class="caption">
+          
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="row" style="margin:20px 0;">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="#" target="_blank">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2v60PxfZPk2BZIuMs7sJiGSW09GBTB9PlKRILKk9Dk_h_UsRI" style="width:50%,height:50%">
+          <div class="caption">
+      
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="#" target="_blank">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2v60PxfZPk2BZIuMs7sJiGSW09GBTB9PlKRILKk9Dk_h_UsRI" style="width:50%,height:50%">
+          <div class="caption">
+      
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+       <button onclick="location.href='{% url 'script' %}'">Execute Script</button> <hr>
+        {% if data %}
+        
+        {{data | safe}}
+
+        {% endif %}
+
+  </div>
+	</div>
+
+</div>
+</div>
+
+<div class="footer">
+  Footer to Use
+</div>
+
+
+
+
+</body>
+</html>
